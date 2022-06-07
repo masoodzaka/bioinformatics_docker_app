@@ -19,5 +19,6 @@ Here is the list of software available through this docker app. All of the sotwa
 
 * NGS quality check tools 
   - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-* Aligner or alignment tools
+  - [MultiQC](https://multiqc.info/)
+* Fasta aligner and fastq alignment tools
   - [Blast+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)

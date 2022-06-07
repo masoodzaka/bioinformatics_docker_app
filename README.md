@@ -1,3 +1,6 @@
 # bioinformatics_docker_app
 
-#[Introduction](#introduction)
+[Introduction](#introduction)
+[Usage](#usage)
+[Contribution/Extending the current version](#versioning)
+

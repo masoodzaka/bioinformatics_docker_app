@@ -50,7 +50,7 @@ Here is the list of software available through this docker app. All of the sotwa
   - [PICARD](https://broadinstitute.github.io/picard/)
   - [Macs2](https://github.com/macs3-project/MACS)
  * Variant annotation tools
-  - [SnpEFF](http://pcingola.github.io/SnpEff/)
-  - [ANNOVAR](https://annovar.openbioinformatics.org/en/latest/)
+    - [SnpEFF](http://pcingola.github.io/SnpEff/)
+    - [ANNOVAR](https://annovar.openbioinformatics.org/en/latest/)
  * NGS and genome download tools
   - [SRA Toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc)

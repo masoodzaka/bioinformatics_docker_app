@@ -6,7 +6,7 @@
 
 [Usage](#usage)
 
-[Contribution/Updates](#contributionupdates)
+[Contributions and Updates](#contributionandupdates)
 
 
 
@@ -119,7 +119,7 @@ You can quick start singularity by pulling the docker image using following comm
 singularity pull docker://masoodzaka/bioinformatics
 ```
 
-## Contributions and versioning updates
+## Contributions and updates
 
 Clone the main git repository using:
 ```bash

@@ -1,4 +1,4 @@
-# bioinformatics_docker_app
+# Bioinformatics Docker App
 
 [Introduction](#introduction)
 

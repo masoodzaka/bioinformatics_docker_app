@@ -6,7 +6,7 @@
 
 [Usage](#usage)
 
-[Contributions and Updates](#contributionandupdates)
+[Contributions and Updates](#contribution and updates)
 
 
 

@@ -17,6 +17,7 @@ This docker app is collection of some of the most popular software currently bei
 
 Here is the list of software available through this docker app. All of the sotware binaries are paresent in the /opt directory and soft linked to the /usr/bin for ready to use. Each of the sotware/tool standard use or manual can be accessed on providers webpages.
 
-### NGS quality check tools 
-
-- [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+* NGS quality check tools 
+  - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+* Aligner or alignment tools
+  - [Blast+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)

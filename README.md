@@ -61,8 +61,10 @@ Here is the list of software available through this docker app. All of the sotwa
 
 ----
 User: `compbio`
+
 Password: `bioinfo`
 
+----
 ### For docker desktop (windows)
 
 * Create a folder to map it to docker container on your window's drive

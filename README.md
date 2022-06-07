@@ -74,3 +74,12 @@ docker run -d -v d:/compbio:/home/compbio \
 ```
 docker exec -i -t bioinfo_container
 ```
+* Stop the running container 
+```
+docker stop bioinfo_container
+```
+* Re-running the existing will have two steps
+```
+docker start bioinfo_container 
+docker attach bioinfo_container
+```

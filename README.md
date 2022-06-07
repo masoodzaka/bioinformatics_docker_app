@@ -6,9 +6,8 @@
 
 [Usage](#usage)
 
-[Contribution/Extending the current version](#Contribution)
+[Contribution/Updates](#Contribution)
 
-[Updates](#updates)
 
 
 ## Introduction
@@ -118,6 +117,7 @@ For security reasons, docker is not directory accessible on HPC or Computer clus
 You can quick start singularity by pulling the docker image using following command. 
 ```
 singularity pull docker://masoodzaka/bioinformatics
+```
 
 ## Contributions and versioning updates
 

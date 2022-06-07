@@ -6,7 +6,9 @@
 
 [Usage](#usage)
 
-[Contribution/Extending the current version](#versioning)
+[Contribution/Extending the current version](#Contribution)
+
+[Updates](#updates)
 
 
 ## Introduction
@@ -108,3 +110,40 @@ sudo docker run -d -v ~/compbio:/home/compbio \
 ```
 docker exec -i -t bioinfo_container
 ```
+
+### For HPC or Clusters
+
+For security reasons, docker is not directory accessible on HPC or Computer clusters environment such as SGE or Slurm on private, research lab or University network. However, we can use [Singularity](https://hpc.nih.gov/apps/singularity.html) such as this one from NIH as an ulternate for performing similar tasks. To learn more about singularity visit this documentation from [Sylabs](https://sylabs.io/guides/2.6/user-guide/singularity_and_docker.html). 
+
+You can quick start singularity by pulling the docker image using following command. 
+```
+singularity pull docker://masoodzaka/bioinformatics
+
+## Contributions and versioning updates
+
+Clone the main git repository using:
+```bash
+git clone https://github.com/masoodzaka/bioinformatics_docker_app.git
+```
+and make a new folder with version tag:
+```bash
+cd bioinformatics_docker_app
+mkdir -p v1.0.1
+cd v1.0.1
+touch Dockerfile
+```
+Access the content of previous Dockerfile image using the "FROM" root container:
+```bash
+FROM masoodzaka/bioinformatics:v1.0.0
+```
+And build the latest docker image app using standard docker build command
+```bash
+docker build -t masoodzaka/bioinformatics:v1.0.1
+```
+Push the docker image 
+```bash
+docker image push masoodzaka/bioinformatics:v1.0.1
+```
+
+----
+The bioinformatics docker app will be regularly updated with latest software currently being implemented in the best practices analysis of high-throughput data. 

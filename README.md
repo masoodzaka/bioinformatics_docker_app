@@ -54,3 +54,19 @@ Here is the list of software available through this docker app. All of the sotwa
     - [ANNOVAR](https://annovar.openbioinformatics.org/en/latest/)
  * NGS and genome download tools
     - [SRA Toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc)
+
+## Usage 
+
+### For docker desktop (windows)
+
+* Create a folder to map it to docker container on your window's drive
+```
+e.g. compbio
+```
+----
+* Start the your contianer using following command from the latest version of docker app
+```
+docker run -d -v d:/compbio:/home/compbio \
+--name bioinfo_container \
+-it masoodzaka/bioinformatics:<tag>
+```

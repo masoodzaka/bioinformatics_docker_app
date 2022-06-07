@@ -57,6 +57,12 @@ Here is the list of software available through this docker app. All of the sotwa
 
 ## Usage 
 
+### Login account details for sudo
+
+----
+User: `compbio`
+Password: `bioinfo`
+
 ### For docker desktop (windows)
 
 * Create a folder to map it to docker container on your window's drive
@@ -82,4 +88,21 @@ docker stop bioinfo_container
 ```
 docker start bioinfo_container 
 docker attach bioinfo_container
+```
+### For docker (Ubuntu)
+
+* Create a folder to map it to docker container using following command
+```
+sudo mkdir -p compbio
+```
+----
+* Start the your contianer using following command from the latest version of docker app
+```
+sudo docker run -d -v ~/compbio:/home/compbio \
+--name bioinfo_container \
+-it masoodzaka/bioinformatics:<tag>
+```
+* Connect to the running container using following command
+```
+docker exec -i -t bioinfo_container
 ```

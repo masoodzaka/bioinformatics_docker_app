@@ -61,7 +61,7 @@ Here is the list of software available through this docker app. All of the sotwa
 
 * Create a folder to map it to docker container on your window's drive
 ```
-e.g. compbio
+e.g. drive(d):/compbio
 ```
 ----
 * Start the your contianer using following command from the latest version of docker app
@@ -69,4 +69,8 @@ e.g. compbio
 docker run -d -v d:/compbio:/home/compbio \
 --name bioinfo_container \
 -it masoodzaka/bioinformatics:<tag>
+```
+* Connect to the running container using following command
+```
+docker exec -i -t bioinfo_container
 ```

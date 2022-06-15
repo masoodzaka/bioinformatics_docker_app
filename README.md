@@ -70,7 +70,7 @@ Password: `bioinfo`
 
 * Pull image from online docker hub to local computer. 
 ```
-docker pull masoodzaka/bioinformatics
+docker pull masoodzaka/bioinformatics:v1.0.0
 ````
 ----
 * Create a folder to map it to docker container on your window's drive

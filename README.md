@@ -68,6 +68,11 @@ Password: `bioinfo`
 ----
 ### For docker desktop (windows)
 
+* Pull image from online docker hub to local computer. 
+```
+docker pull masoodzaka/bioinformatics
+````
+----
 * Create a folder to map it to docker container on your window's drive
 ```
 e.g. drive(d):/compbio
